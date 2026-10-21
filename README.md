@@ -1,6 +1,6 @@
-# student-it-knowledge-base-warp04
+# `student-it-knowledge-base-warp04`
 
-Nie ma UKOS bo tak wyszło D:
+## Nie ma UKOS bo tak wyszło D:
 
 [WARP](https://github.com/IConsumeBread/student-it-knowledge-base-warp04/blob/main/docs/warp/warp.md) - TM-code101
 
