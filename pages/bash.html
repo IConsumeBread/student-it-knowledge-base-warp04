@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../styles.css">
-  <title>Student IT Knowledge Base</title>
+  <title>Bash – Student IT Knowledge Base</title>
 </head>
 <body>
   <header>
@@ -13,37 +13,112 @@
   </header>
   <main>
     <table>
-  <caption>Podstawowe polecenia Bash</caption>
-        <thead>
-            <tr>
-                <th>Polecenie</th>
-                <th>Przykład</th>
-                <th>Opis</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><code>pwd</code></td>
-                <td><code>pwd</code></td>
-                <td>Pokazuje bieżący katalog.</td>
-            </tr>
-            <tr>
-                <td><code>ls</code></td>
-                <td><code>ls -la</code></td>
-                <td>Wypisuje pliki w katalogu.</td>
-            </tr>
-        </tbody>
+      <caption>Podstawowe polecenia Bash</caption>
+      <thead>
+        <tr>
+          <th>Polecenie</th>
+          <th>Przykład</th>
+          <th>Opis</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>pwd</code></td>
+          <td><code>pwd</code></td>
+          <td>Pokazuje bieżący katalog.</td>
+        </tr>
+        <tr>
+          <td><code>ls</code></td>
+          <td><code>ls -la</code></td>
+          <td>Wypisuje pliki w katalogu, także ukryte.</td>
+        </tr>
+        <tr>
+          <td><code>cd</code></td>
+          <td><code>cd docs/ukos</code></td>
+          <td>Przechodzi do podanego katalogu.</td>
+        </tr>
+        <tr>
+          <td><code>cd ..</code></td>
+          <td><code>cd ..</code></td>
+          <td>Wraca do katalogu nadrzędnego.</td>
+        </tr>
+        <tr>
+          <td><code>mkdir</code></td>
+          <td><code>mkdir projekt</code></td>
+          <td>Tworzy nowy katalog.</td>
+        </tr>
+        <tr>
+          <td><code>touch</code></td>
+          <td><code>touch notatki.txt</code></td>
+          <td>Tworzy pusty plik.</td>
+        </tr>
+        <tr>
+          <td><code>cp</code></td>
+          <td><code>cp a.txt b.txt</code></td>
+          <td>Kopiuje plik.</td>
+        </tr>
+        <tr>
+          <td><code>mv</code></td>
+          <td><code>mv a.txt docs/</code></td>
+          <td>Przenosi plik lub zmienia jego nazwę.</td>
+        </tr>
+        <tr>
+          <td><code>rm</code></td>
+          <td><code>rm stary.txt</code></td>
+          <td>Trwale usuwa plik, bez użycia kosza.</td>
+        </tr>
+        <tr>
+          <td><code>rmdir</code></td>
+          <td><code>rmdir pusty-katalog</code></td>
+          <td>Usuwa pusty katalog.</td>
+        </tr>
+        <tr>
+          <td><code>cat</code></td>
+          <td><code>cat notatki.txt</code></td>
+          <td>Wyświetla zawartość pliku.</td>
+        </tr>
+        <tr>
+          <td><code>echo</code></td>
+          <td><code>echo "Witaj"</code></td>
+          <td>Wypisuje podany tekst w terminalu.</td>
+        </tr>
+        <tr>
+          <td><code>head</code></td>
+          <td><code>head -n 5 notatki.txt</code></td>
+          <td>Pokazuje pierwsze linie pliku.</td>
+        </tr>
+        <tr>
+          <td><code>tail</code></td>
+          <td><code>tail -n 5 notatki.txt</code></td>
+          <td>Pokazuje ostatnie linie pliku.</td>
+        </tr>
+        <tr>
+          <td><code>grep</code></td>
+          <td><code>grep "git" notatki.txt</code></td>
+          <td>Wyszukuje linie zawierające podany tekst.</td>
+        </tr>
+        <tr>
+          <td><code>man</code></td>
+          <td><code>man ls</code></td>
+          <td>Otwiera instrukcję obsługi polecenia.</td>
+        </tr>
+        <tr>
+          <td><code>clear</code></td>
+          <td><code>clear</code></td>
+          <td>Czyści ekran terminala.</td>
+        </tr>
+      </tbody>
     </table>
   </main>
   <footer>
     <h3>Linki do innych stron</h3>
-        <nav>
-        <ul>
-            <li><a href="../index.html">Strona główna</a></li>
-            <li><a href="bash.html">Bash</a></li>
-            <li><a href="git.html">Git</a></li>
-            <li><a href="dotnet-cli.html">.NET CLI</a></li>
-        </ul>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Strona główna</a></li>
+        <li><a href="bash.html">Bash</a></li>
+        <li><a href="git.html">Git</a></li>
+        <li><a href="dotnet-cli.html">.NET CLI</a></li>
+      </ul>
     </nav>
   </footer>
 </body>

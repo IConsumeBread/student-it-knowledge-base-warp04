@@ -4,47 +4,106 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../styles.css">
-  <title>Student IT Knowledge Base</title>
+  <title>.NET CLI – Student IT Knowledge Base</title>
 </head>
 <body>
   <header>
     <h1>Student IT Knowledge Base</h1>
     <h2>.NET CLI</h2>
-    <table>
-  <caption>Podstawowe polecenia .NET CLI</caption>
-        <thead>
-            <tr>
-                <th>Polecenie</th>
-                <th>Przykład</th>
-                <th>Opis</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><code>dotnet new console</code></td>
-                <td><code>donet new console -n Nazwa</code></td>
-                <td>Tworzy pliki do programu C#</td>
-            </tr>
-            <tr>
-                <td><code>ls</code></td>
-                <td><code>ls -la</code></td>
-                <td>Wypisuje pliki w katalogu.</td>
-            </tr>
-        </tbody>
-    </table>
   </header>
   <main>
-    <p></p>
+    <table>
+      <caption>Podstawowe polecenia .NET CLI</caption>
+      <thead>
+        <tr>
+          <th>Polecenie</th>
+          <th>Przykład</th>
+          <th>Opis</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>dotnet --version</code></td>
+          <td><code>dotnet --version</code></td>
+          <td>Pokazuje używaną wersję SDK.</td>
+        </tr>
+        <tr>
+          <td><code>dotnet --list-sdks</code></td>
+          <td><code>dotnet --list-sdks</code></td>
+          <td>Wypisuje zainstalowane wersje SDK.</td>
+        </tr>
+        <tr>
+          <td><code>dotnet --list-runtimes</code></td>
+          <td><code>dotnet --list-runtimes</code></td>
+          <td>Wypisuje zainstalowane środowiska uruchomieniowe.</td>
+        </tr>
+        <tr>
+          <td><code>dotnet --info</code></td>
+          <td><code>dotnet --info</code></td>
+          <td>Pokazuje szczegóły instalacji .NET i systemu.</td>
+        </tr>
+        <tr>
+          <td><code>dotnet new list</code></td>
+          <td><code>dotnet new list</code></td>
+          <td>Wypisuje dostępne szablony projektów.</td>
+        </tr>
+        <tr>
+          <td><code>dotnet new console</code></td>
+          <td><code>dotnet new console -n Hello</code></td>
+          <td>Tworzy nową aplikację konsolową o podanej nazwie.</td>
+        </tr>
+        <tr>
+          <td><code>dotnet new sln</code></td>
+          <td><code>dotnet new sln -n MojeRozwiazanie</code></td>
+          <td>Tworzy plik rozwiązania grupujący projekty.</td>
+        </tr>
+        <tr>
+          <td><code>dotnet add package</code></td>
+          <td><code>dotnet add package Newtonsoft.Json</code></td>
+          <td>Dodaje pakiet NuGet do projektu.</td>
+        </tr>
+        <tr>
+          <td><code>dotnet restore</code></td>
+          <td><code>dotnet restore</code></td>
+          <td>Pobiera zależności projektu.</td>
+        </tr>
+        <tr>
+          <td><code>dotnet build</code></td>
+          <td><code>dotnet build</code></td>
+          <td>Kompiluje projekt.</td>
+        </tr>
+        <tr>
+          <td><code>dotnet run</code></td>
+          <td><code>dotnet run</code></td>
+          <td>Buduje i uruchamia aplikację.</td>
+        </tr>
+        <tr>
+          <td><code>dotnet test</code></td>
+          <td><code>dotnet test</code></td>
+          <td>Uruchamia testy jednostkowe projektu.</td>
+        </tr>
+        <tr>
+          <td><code>dotnet publish</code></td>
+          <td><code>dotnet publish -c Release</code></td>
+          <td>Przygotowuje aplikację do wdrożenia.</td>
+        </tr>
+        <tr>
+          <td><code>dotnet clean</code></td>
+          <td><code>dotnet clean</code></td>
+          <td>Usuwa wyniki kompilacji.</td>
+        </tr>
+      </tbody>
+    </table>
   </main>
   <footer>
     <h3>Linki do innych stron</h3>
-        <nav>
-        <ul>
-            <li><a href="../index.html">Strona główna</a></li>
-            <li><a href="bash.html">Bash</a></li>
-            <li><a href="git.html">Git</a></li>
-            <li><a href="dotnet-cli.html">.NET CLI</a></li>
-        </ul>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Strona główna</a></li>
+        <li><a href="bash.html">Bash</a></li>
+        <li><a href="git.html">Git</a></li>
+        <li><a href="dotnet-cli.html">.NET CLI</a></li>
+      </ul>
     </nav>
   </footer>
 </body>
